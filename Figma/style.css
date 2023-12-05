@@ -1,17 +1,18 @@
 .frame {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
-}
-
-.div {
+    height: 2500px;
     background-image: url(images/Background.png);
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 1700px;
-    position: relative;
+    background-color: #3a3b3c;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
 }
 
 .overlap {
@@ -20,7 +21,7 @@
     width: auto;
     height: 120px;
     top: 120px;
-    left: 150px;
+    left: 20%;
     background-color: #d10000;
     border: 4px solid;
     border-color: #ffffff;
@@ -28,176 +29,145 @@
 
 .text-wrapper {
     position: relative;
-    width: 15vw;
+    width: 700px;
     height: 120px;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     vertical-align: middle;
 }
 
-.overlap-group {
+.overlap2 {
     line-height: 120px;
     position: absolute;
-    width: 1400px;
+    width: auto;
     height: 120px;
     top: 120px;
-    left: 850px;
+    left: 50%;
 }
 
-.rectangle {
-    left: 0;
+.text-wrapper2 {
+    left: 700px;
     position: absolute;
-    width: 15vw;
+    width: 700px;
     height: 120px;
     border: 4px solid;
     border-color: #ffffff;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
-.rectangle-2 {
-    left: 700px;
+table {
     position: absolute;
-    width: 15vw;
-    height: 120px;
-    border: 4px solid;
-    border-color: #ffffff;
+    top: 15%;
+    left: 20%;
+}
+
+.Icon {
+    position: relative;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Teams {
+    width: 1200px;
+    margin: 40px;
+    padding: 10px;
+    top: 50%;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 120px;
     text-align: center;
 }
 
-.text-wrapper-2 {
-    position: absolute;
-    width: 700px;
-    height: 120px;
-    top: 0;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.text-wrapper-3 {
-    position: absolute;
-    width: 700px;
-    height: 120px;
-    top: 0;
-    left: 700px;
-    font-family: "Inter", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.overlap-group-2 {
-    position: absolute;
-    width: 2100px;
-    height: 1286px;
-    top: 329px;
-    left: 151px;
-}
-
-.line {
-    position: absolute;
-    width: 2100px;
-    height: 4px;
-    top: 70px;
-    left: 0;
-}
-
-.text-wrapper-4 {
-    position: absolute;
-    width: 950px;
-    height: 70px;
-    top: 15px;
-    left: 0;
-    font-family: "Inter", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.text-wrapper-5 {
-    position: absolute;
+.Matches {
     width: 300px;
-    height: 50px;
-    top: 15px;
-    left: 950px;
+    margin: 40px;
+    padding: 10px;
+    top: 50%;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 120px;
     text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
 }
 
-.text-wrapper-6 {
-    position: absolute;
-    width: 335px;
-    height: 50px;
-    top: 15px;
-    left: 1250px;
+.Won {
+    width: 300px;
+    margin: 40px;
+    padding: 10px;
+    top: 50%;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 120px;
     text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
 }
 
-.text-wrapper-7 {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    top: 15px;
-    left: 1580px;
+.GD {
+    width: 300px;
+    margin: 40px;
+    padding: 10px;
+    top: 50%;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 120px;
     text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
 }
 
-.text-wrapper-8 {
-    position: absolute;
-    width: 315px;
-    height: 40px;
-    top: 15px;
-    left: 1785px;
+.Points {
+    width: 300px;
+    margin: 40px;
+    padding: 10px;
+    top: 50%;
     font-family: "Inter", Helvetica;
     font-weight: 700;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 120px;
     text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
 }
 
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 8px solid #ffffff;
+}
+
+table tr:first-child th {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
 }
