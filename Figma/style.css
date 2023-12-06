@@ -90,6 +90,7 @@ table {
 }
 
 .Icon {
+    padding: 5px;
     position: relative;
     top: 0px;
     width: 150px;
