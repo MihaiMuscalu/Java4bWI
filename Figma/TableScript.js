@@ -17,7 +17,8 @@ const fillTable = (data) => {
     let GD = "";
     let Points = "";
     for (let i = 0; i < 10; i++) {
-        Icon = "<td><img class='Icon' src='" + data[i].teamIconUrl + "'></img></td>";
+        Icon = "<td class= 'Icon' style=\"background-image: url('" + data[i].teamIconUrl + "');\"></td>";
+
         Teams = "<td class='Teams'>" + data[i].teamName + "</td>";
         Matches = "<td class='Matches'>" + data[i].matches + "</td>";
         Won = "<td class='Won'>" + data[i].won + "</td>";
