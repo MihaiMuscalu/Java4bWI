@@ -45,6 +45,60 @@ body {
     border-color: #ffffff;
 }
 
+.overlap3 {
+    max-width: 700px;
+    line-height: 6vw;
+    position: absolute;
+    width: 14vw;
+    height: 6vh;
+    top: 5%;
+    left: 20%;
+    border: 0.04vw solid;
+    border-color: #ffffff;
+}
+
+.overlap4 {
+    line-height: 6vw;
+    position: absolute;
+    height: 6%;
+    top: 5%;
+    right: 20%;
+    /* Adjust left position using percentage for responsiveness */
+    width: 14vw;
+    /* Adjust width using percentage for responsiveness */
+    max-width: 700px;
+    /* Set a maximum width to prevent it from stretching too wide on larger screens */
+    background-color: #d10000;
+    border: 0.04vw solid;
+    border-color: #ffffff;
+}
+
+.rectangle {
+    position: absolute;
+    top: 15%;
+    left: 20vw;
+    right: 20vw;
+    width: 60%;
+    /* Adjusted width using percentage */
+    height: 80vh;
+    background-color: #ffffff46;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around center;
+}
+
+.TeamImg {
+    left: 4vw;
+    margin: 2%;
+    padding: 2%;
+    width: 10%;
+    height: 10%;
+    position: relative;
+    flex-direction: row;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .text-wrapper {
     position: relative;
     width: 100%;
@@ -64,7 +118,7 @@ body {
 
 .text-wrapper2 {
     position: relative;
-    width: 100%;
+    width: 14vw;
     /* Make sure the text wrapper takes 100% of the parent's width */
     height: 100%;
     /* Make sure the text wrapper takes 100% of the parent's height */
@@ -125,7 +179,7 @@ table {
 }
 
 .Icon {
-    width: 5%;
+    width: 5.5%;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
